@@ -1,0 +1,198 @@
+ //  PRINT THE INPUT OUT///////////////(print out in console)
+
+
+
+
+
+// import React, { Component } from 'react'
+// export default class Form extends Component {
+
+//         constructor(props)
+//         {
+//             super(props);
+//             this.inpone=React.createRef()
+//             this.inptwo=React.createRef()
+//         }
+//         Submit=(e)=>{
+//             e.preventDefault()
+//             console.log(this.inpone.value);
+//             console.log(this.inptwo.value);
+//         }
+
+//   render() {
+//     return (
+//       <div style={{"textAlighn":"center"}}>
+//             <form action="" onSubmit={this.Submit}>
+//                     <input type="text" name='fname' ref={input=>this.inpone=input} id='' placeholder='FirstName'/>
+//                     <input type="text" name='lname' ref={input=>this.inptwo=input} id='' placeholder='LastName'/>
+//                     <button >Submit</button>
+//             </form>
+//       </div>
+//     )
+//   }
+// }
+
+
+
+
+
+
+
+
+
+                    // CONTROLLED//(input values print at a time the output)////////////////
+
+
+
+
+
+
+                    // import React, { Component } from 'react';
+
+                    // class ControlledComponentExample extends Component {
+                    //   constructor(props) {
+                    //     super(props);
+                    //     this.state = {
+                    //       inputValue: '',
+                    //     };
+                    //   }
+                    
+                    //   handleInputChange = (e) => {
+                    //     this.setState({ inputValue: e.target.value });
+                    //   }
+                    
+                    //   render() {
+                    //     return (
+                    //       <div>
+                    //         <input
+                    //           type="text"
+                    //           value={this.state.inputValue}
+                    //           onChange={this.handleInputChange}
+                    //         />
+                    //         <p>Input value: {this.state.inputValue}</p>
+                    //       </div>
+                    //     );
+                    //   }
+                    // }
+                    
+                    // export default ControlledComponentExample;
+
+
+
+
+
+
+
+
+
+
+                    // UNCONTROLLED//(press the button print input values the output and display the alert msg)//////////////
+
+
+
+
+
+
+//                     import React, { Component } from 'react';
+
+// class UncontrolledComponentExample extends Component {
+//   constructor(props) {
+//     super(props);
+//     this.inputRef = React.createRef();
+//   }
+
+//   handleButtonClick = () => {
+//     alert('Input value: ' + this.inputRef.current.value);
+//   }
+
+//   render() {
+//     return (
+//       <div>
+//         <input type="text" ref={this.inputRef} />
+//         <button onClick={this.handleButtonClick}>Get Input Value</button>
+//       </div>
+//     );
+//   }
+// }
+
+// export default UncontrolledComponentExample;
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            // STATE//(press the button then count the numbers)/////////////
+
+
+
+
+
+//                             import React, { Component } from 'react';
+
+// class Counter extends Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       count: 0,
+//     };
+//   }
+
+//   increment = () => {
+//     this.setState({ count: this.state.count + 1 });
+//   }
+
+//   render() {
+//     return (
+//       <div>
+//         <p>Count: {this.state.count}</p>
+//         <button onClick={this.increment}>Increment</button>
+//       </div>
+//     );
+//   }
+// }
+
+// export default Counter;
+
+
+
+
+
+
+
+
+
+
+                            // PROPS//(add superate heads and display on one line)/////////
+
+
+
+
+
+
+//                             import React  from 'react';
+
+// function Greeting(props) {
+//   return <h1>Hello, {props.name}!</h1>;
+// }
+
+// function App() {
+//   return (
+//     <div>
+//       <Greeting name="Alice" />
+//       <Greeting name="Bob" />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+                    
